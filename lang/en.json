@@ -1,7 +1,7 @@
 [
   {
     "name": "FILEDIA",
-    "desc": "Suppresses display of file navigation dialog boxes.",
+    "desc": "Suppresses display of file navigation dialog boxes..",
     "options": [
       {
         "value": 0,
