@@ -1,0 +1,110 @@
+[
+  {
+    "name": "FILEDIA",
+    "desc": "Suppresses display of file navigation dialog boxes.",
+    "options": [
+      {
+        "value": 0,
+        "desc": "Does not display dialog boxes. You can still request a file dialog box to appear by entering a tilde (~) in response to the Command prompt."
+      },
+      {
+        "value": 1,
+        "desc": "Displays dialog boxes. However, if a script is active, an ordinary prompt is displayed. Prompts are also displayed if an AutoLISP or ObjectARX™ program is active. (Not applicable to AutoCAD LT.)"
+      }
+    ]
+  },
+  {
+    "name": "_VERNUM",
+    "desc": "Returns the product's build version number."
+  },
+  {
+    "name": "ANNOAUTOSCALE",
+    "desc": "Updates annotative objects to support the annotation scale when the annotation scale is changed.",
+    "options": [
+      {
+        "value": 0,
+        "desc": "Newly set annotation scale is not added to annotative objects."
+      },
+      {
+        "value": 1,
+        "desc": "Adds the newly set annotation scale to annotative objects that support the current scale except for those on layers that are turned off, frozen, locked or that are set to Viewport > Freeze"
+      },
+      {
+        "value": 2,
+        "desc": "Adds the newly set annotation scale to annotative objects that support the current scale except for those on layers that are turned off, frozen, or that are set to Viewport > Freeze."
+      },
+      {
+        "value": 3,
+        "desc": "Adds the newly set annotation scale to annotative objects that support the current scale except for those on layers that are locked."
+      },
+      {
+        "value": 4,
+        "desc": "Adds the newly set annotation scale to all annotative objects that support the current scale."
+      }
+    ]
+  },
+  {
+    "name": "CTAB",
+    "desc": "Determines whether the drawing area displays the Model tab or a specified layout tab."
+  },
+  {
+    "name": "OSMODE",
+    "desc": "Sets running object snaps."
+  },
+  {
+    "name": "ACTPATH",
+    "desc": "Sets running object snaps."
+  },
+  {
+    "name": "ACTRECPATH",
+    "desc": "Sets running object snaps."
+  },
+  {
+    "name": "3DCONVERSIONMODE",
+    "desc": "Used to convert material and light definitions to the current product release.",
+    "options": [
+      {
+        "value": 0,
+        "desc": "No material or lighting conversion takes place when the drawing is opened"
+      },
+      {
+        "value": 1,
+        "desc": "Material and lighting conversion takes place automatically"
+      },
+      {
+        "value": 2,
+        "desc": "You are prompted to convert any materials or lighting"
+      }
+    ]
+  },
+  {
+    "name": "3DDWFPREC",
+    "desc": "Controls the precision of 3D DWF or 3D DWFx publishing.",
+    "options": [
+      {
+        "value": 1,
+        "desc": "1"
+      },
+      {
+        "value": 2,
+        "desc": "0.5"
+      },
+      {
+        "value": 3,
+        "desc": "0.2"
+      },
+      {
+        "value": 4,
+        "desc": "0.1"
+      },
+      {
+        "value": 5,
+        "desc": "0.01"
+      },
+      {
+        "value": 6,
+        "desc": "0.001"
+      }
+    ]
+  }
+]
