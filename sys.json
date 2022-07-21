@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "FILEDIA",
+    "value": 1,
+    "type": "switch"
+  },
+  {
+    "id": 2,
+    "name": "_VERNUM",
+    "value": "",
+    "type": "string",
+    "readonly": true
+  },
+  {
+    "id": 3,
+    "name": "ANNOAUTOSCALE",
+    "value": 3,
+    "type": "int",
+    "min": -4,
+    "max": 4
+  },
+  {
+    "id": 4,
+    "name": "CTAB",
+    "value": "",
+    "type": "string"
+  },
+  {
+    "id": 5,
+    "name": "OSMODE",
+    "value": 30,
+    "type": "bigint",
+    "min": 0,
+    "max": 32767
+  },
+  {
+    "id": 6,
+    "name": "ACTPATH",
+    "value": "",
+    "type": "string"
+  },
+  {
+    "id": 7,
+    "name": "ACTRECPATH",
+    "value": "",
+    "type": "string"
+  },
+  {
+    "id": 8,
+    "name": "3DCONVERSIONMODE",
+    "value": 1,
+    "min": 0,
+    "max": 2,
+    "type": "int"
+  },{
+    "id": 9,
+    "name": "3DDWFPREC",
+    "value": 2,
+    "min": 1,
+    "max": 6,
+    "type": "int"
+    
+  }
+]
