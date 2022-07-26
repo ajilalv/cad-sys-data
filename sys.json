@@ -26,13 +26,6 @@
     "type": "switch"
   },
   {
-    "id": 2,
-    "name": "_VERNUM",
-    "value": "",
-    "type": "string",
-    "readonly": true
-  },
-  {
     "id": 3,
     "name": "ANNOAUTOSCALE",
     "value": 3,
