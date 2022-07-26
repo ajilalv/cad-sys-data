@@ -1,5 +1,17 @@
 [
   {
+  "name": "*_TOOLPALETTEPATH",
+    "desc": "Controls the path(s) that are used for the Tool Palette Windows.",
+  },
+    {
+  "name": "_PKSER",
+    "desc": "Returns the product's serial number.",
+  },
+      {
+  "name": "_VERNUM",
+    "desc": "Returns the product's build version number.",
+  },
+  {
     "name": "FILEDIA",
     "desc": "Suppresses display of file navigation dialog boxes..",
     "options": [
